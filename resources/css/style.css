@@ -1,9 +1,96 @@
 html{
   font-size: 18px;
   line-height: 1.4;
+  font-family: helvetica;
+}
+
+.container{
+  max-width: 960px;
+  display: flex;
+  margin: auto;
 }
 
 /*header section*/
 header{
   background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30rem;
+  padding: 1rem 0px;
+}
+
+nav{
+  display: flex;
+  background-color: cadetblue;
+  padding: 1rem 0px;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav div{
+  display: flex;
+  align-items: center;
+}
+
+nav.container img{
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+ul{
+margin: 0rem 1rem;
+}
+
+ul li{
+display: inline;
+margin: 1rem;
+}
+
+header .flex{
+  justify-content: flex-end;
+}
+
+.flex{
+  display: flex;
+}
+
+.main-banner{
+  display: inline-block;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  background-color: white;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  padding: 1.5rem 5rem;
+}
+
+/*Services*/
+.services{
+  display: flex;
+  justify-content: center;
+}
+
+.service{
+  display: flex;
+  flex-direction: column;
+  height: 8rem;
+  width: 5rem;
+  margin: 3rem;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.service img.paper{
+  width: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.service img{
+  width: 5rem;
+  margin-bottom: 1rem;
 }
