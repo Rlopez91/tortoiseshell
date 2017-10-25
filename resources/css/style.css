@@ -10,6 +10,9 @@ html{
   margin: auto;
 }
 
+.mobile{
+  display: none;
+}
 /*header section*/
 header{
   background-image: url("../images/glasses-bg.png");
@@ -148,5 +151,74 @@ footer img{
 
   .boxes{
     justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  nav.container{
+    max-width: 100%;
+  }
+
+  .menu ul{
+    display: none;
+  }
+
+  .menu ul.mobile{
+    display: block;
+  }
+
+  .main-banner{
+    font-size: 1rem;
+    margin: 9rem 0px auto 0px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  header{
+    max-height: 17rem;
+  }
+
+  .services{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+  }
+
+  .service{
+    height: auto;
+    font-size: 0.77rem;
+    margin: 0.77rem;
+  }
+
+  .boxes{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+  }
+
+  .box{
+    width: auto;
+  }
+
+  .box .box-title{
+    width: 100%;
+    text-align: center;
+  }
+
+  .box p{
+    font-size: 0.77rem;
+  }
+
+  footer.container{
+    justify-content: center;
+  }
+
+  footer div{
+    display: none;
   }
 }
