@@ -94,3 +94,36 @@ header .flex{
   width: 5rem;
   margin-bottom: 1rem;
 }
+
+/*support section*/
+.boxes{
+  display: flex;
+  justify-content: space-between;
+}
+
+.box{
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 5rem;
+}
+
+.box .box-title{
+  font-weight: bold;
+  background-color: cadetblue;
+  color: white;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+/*footer*/
+footer{
+  padding: 4rem;
+  align-items: center;
+  background-color: azure;
+}
+
+footer img{
+  height: 1.5rem;
+  margin-right: 1rem;
+}
